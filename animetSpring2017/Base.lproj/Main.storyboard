@@ -61,7 +61,7 @@
         <scene sceneID="kg4-Rq-kzM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rNV-hl-wcO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="搜尋" id="7Rh-kJ-cWg"/>
+                    <tabBarItem key="tabBarItem" title="搜尋" image="2017anime-icon-2" id="7Rh-kJ-cWg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7KZ-Ca-ZFg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -95,13 +95,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ea-Tc-sTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1431" y="-837"/>
+            <point key="canvasLocation" x="745" y="-815"/>
         </scene>
         <!--首頁-->
         <scene sceneID="HEs-bk-FEz">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dST-YJ-d5I" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首頁" id="2DM-8s-c49"/>
+                    <tabBarItem key="tabBarItem" title="首頁" image="2017anime-icon-1" id="2DM-8s-c49"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
@@ -122,7 +122,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bod-M7-F8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2370" y="-1548"/>
+            <point key="canvasLocation" x="2121" y="-1544"/>
         </scene>
         <!--2017春季新番動畫-->
         <scene sceneID="XwP-uR-ThB">
@@ -905,7 +905,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iag-AL-61p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3308" y="-1548"/>
+            <point key="canvasLocation" x="3060" y="-1544"/>
         </scene>
         <!--黑色推銷員NEW-->
         <scene sceneID="ygT-WC-0b8">
@@ -2147,6 +2147,11 @@ CAST
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTE-Ti-5MN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2165,13 +2170,13 @@ CAST
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="3060" y="892"/>
+            <point key="canvasLocation" x="3060" y="891.90404797601207"/>
         </scene>
         <!--我的最愛-->
         <scene sceneID="t7w-yj-GXw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zvA-fG-aaW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的最愛" id="aNx-y4-gbr"/>
+                    <tabBarItem key="tabBarItem" title="我的最愛" image="2017anime-icon-3" id="aNx-y4-gbr"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dbl-8c-hhE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -2189,6 +2194,9 @@ CAST
         </scene>
     </scenes>
     <resources>
+        <image name="2017anime-icon-1" width="29" height="29"/>
+        <image name="2017anime-icon-2" width="29" height="29"/>
+        <image name="2017anime-icon-3" width="29" height="29"/>
         <image name="FRAME ARMSGIRL" width="522" height="314"/>
         <image name="七大罪" width="960" height="540"/>
         <image name="劍姬" width="640" height="360"/>

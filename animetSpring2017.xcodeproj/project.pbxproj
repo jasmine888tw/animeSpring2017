@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					8063535A1EC18FFF00235449 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 56HPRX678X;
 						ProvisioningStyle = Automatic;
 					};
 					8063536E1EC1900000235449 = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56HPRX678X;
 				INFOPLIST_FILE = animetSpring2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jascc.animetSpring2017;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56HPRX678X;
 				INFOPLIST_FILE = animetSpring2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jascc.animetSpring2017;
@@ -505,6 +508,7 @@
 				806353851EC1900000235449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806353861EC1900000235449 /* Build configuration list for PBXNativeTarget "animetSpring2017Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				806353881EC1900000235449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806353891EC1900000235449 /* Build configuration list for PBXNativeTarget "animetSpring2017UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				8063538B1EC1900000235449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
